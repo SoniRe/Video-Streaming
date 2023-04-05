@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming App</title>
+</head>
+<body>
+    <h1>Stream Videos You Want</h1>
+    <video width="1080" controls>
+        <source src="/playvideo" type="video/mp4" />
+    </video>
+
+
+    <h2>File Upload</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="videofile">
+        <input type="submit" value="Upload">
+    </form>
+
+</body>
+</html>
